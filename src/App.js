@@ -1,7 +1,12 @@
+import {
+  Navbar,
+} from './components/';
+
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      <Navbar/>
+    </>
   );
 }
 
