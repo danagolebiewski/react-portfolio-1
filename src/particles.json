@@ -2,7 +2,7 @@
   "autoPlay": true,
   "background": {
     "color": {
-      "value": "#000000"
+      "value": "#403060"
     },
     "image": "",
     "position": "50% 50%",
@@ -14,7 +14,7 @@
     "composite": "destination-out",
     "cover": {
       "color": {
-        "value": "#fff"
+        "value": "#dddd0a"
       },
       "opacity": 1
     },
@@ -24,7 +24,7 @@
     "enable": true,
     "zIndex": 1
   },
-  "detectRetina": false,
+  "detectRetina": true,
   "duration": 0,
   "fpsLimit": 120,
   "interactivity": {
@@ -32,17 +32,17 @@
     "events": {
       "onClick": {
         "enable": false,
-        "mode": "push"
+        "mode": []
       },
       "onDiv": {
-        "selectors": "#repulse-div",
+        "selectors": [],
         "enable": false,
-        "mode": "repulse",
+        "mode": [],
         "type": "circle"
       },
       "onHover": {
-        "enable": true,
-        "mode": "bubble",
+        "enable": false,
+        "mode": [],
         "parallax": {
           "enable": false,
           "force": 2,
@@ -64,11 +64,9 @@
         "distance": 200
       },
       "bubble": {
-        "distance": 40,
-        "duration": 2,
-        "mix": false,
-        "opacity": 8,
-        "size": 6
+        "distance": 200,
+        "duration": 0.4,
+        "mix": false
       },
       "connect": {
         "distance": 80,
@@ -78,7 +76,7 @@
         "radius": 60
       },
       "grab": {
-        "distance": 400,
+        "distance": 100,
         "links": {
           "blink": false,
           "consent": false,
@@ -89,7 +87,7 @@
         "area": {
           "gradient": {
             "start": {
-              "value": "#ffffff"
+              "value": "#dddd0a"
             },
             "stop": {
               "value": "#000000"
@@ -121,8 +119,8 @@
         "easing": "ease-out-quad"
       },
       "slow": {
-        "factor": 1,
-        "radius": 0
+        "factor": 3,
+        "radius": 200
       },
       "trail": {
         "delay": 1,
@@ -181,12 +179,7 @@
       }
     },
     "color": {
-      "value": [
-        "#4285f4",
-        "#34A853",
-        "#FBBC05",
-        "#EA4335"
-      ],
+      "value": "#dddd0a",
       "animation": {
         "h": {
           "count": 0,
@@ -259,10 +252,10 @@
     "links": {
       "blink": false,
       "color": {
-        "value": "random"
+        "value": "#dddd0a"
       },
       "consent": false,
-      "distance": 40,
+      "distance": 150,
       "enable": true,
       "frequency": 1,
       "opacity": 1,
@@ -289,8 +282,8 @@
         "distance": 200,
         "enable": false,
         "rotate": {
-          "x": 600,
-          "y": 1200
+          "x": 3000,
+          "y": 3000
         }
       },
       "decay": 0,
@@ -317,15 +310,11 @@
         "options": {}
       },
       "outModes": {
-        "default": "bounce",
-        "bottom": "bounce",
-        "left": "bounce",
-        "right": "bounce",
-        "top": "bounce"
+        "default": "out"
       },
       "random": false,
       "size": false,
-      "speed": 1,
+      "speed": 2,
       "spin": {
         "acceleration": 0,
         "enable": false
@@ -344,29 +333,25 @@
     "number": {
       "density": {
         "enable": false,
-        "area": 2000,
+        "area": 800,
         "factor": 1000
       },
       "limit": 0,
-      "value": 200
+      "value": 100
     },
     "opacity": {
       "random": {
         "enable": false,
         "minimumValue": 0.1
       },
-      "value": {
-        "min": 0.05,
-        "max": 0.4
-      },
+      "value": 1,
       "animation": {
         "count": 0,
-        "enable": true,
+        "enable": false,
         "speed": 2,
         "sync": false,
         "destroy": "none",
-        "startValue": "random",
-        "minimumValue": 0.05
+        "startValue": "random"
       }
     },
     "orbit": {
@@ -444,18 +429,17 @@
     },
     "size": {
       "random": {
-        "enable": true,
+        "enable": false,
         "minimumValue": 1
       },
       "value": 1,
       "animation": {
         "count": 0,
         "enable": false,
-        "speed": 40,
+        "speed": 5,
         "sync": false,
         "destroy": "none",
-        "startValue": "random",
-        "minimumValue": 0.1
+        "startValue": "random"
       }
     },
     "stroke": {
@@ -508,32 +492,5 @@
   "responsive": [],
   "style": {},
   "themes": [],
-  "zLayers": 100,
-  "polygon": {
-    "draw": {
-      "enable": false,
-      "stroke": {
-        "color": {
-          "value": "rgba(255,255,255,0.2)"
-        },
-        "width": 0.5,
-        "opacity": 0.2
-      }
-    },
-    "enable": true,
-    "inline": {
-      "arrangement": "equidistant"
-    },
-    "move": {
-      "radius": 10,
-      "type": "path"
-    },
-    "scale": 1,
-    "type": "inline",
-    "url": "https://particles.js.org/images/google.svg",
-    "position": {
-      "x": 30,
-      "y": 10
-    }
-  }
+  "zLayers": 100
 }
