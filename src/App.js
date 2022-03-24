@@ -1,7 +1,7 @@
 import Particles from "react-tsparticles";
 
-import particlesOptions from "./background/particles.json";
-import Navigation from "./components/Navigation";
+import particlesOptions from "./components/background/particles.json";
+import Navigation from "./components/nav/Navigation";
 
 const App = () => {
     return (
