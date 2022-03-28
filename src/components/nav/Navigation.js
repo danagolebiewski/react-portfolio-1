@@ -18,7 +18,7 @@ const Navigation = () => {
     const actions = [
         { icon: <AccountCircleIcon />, name: 'About Me' },
         { icon: <WorkIcon />, name: 'Projects' },
-        { icon: <ThreePIcon />, name: 'Contact' },
+        { icon: <ThreePIcon onClick={() => <a href='#contact'></a>} />, name: 'Contact' },
         { icon: <GitHubIcon onClick={() => handleClick('GitHub')} />, name: 'GitHub' },
         { icon: <LinkedInIcon onClick={() => handleClick('LinkedIn')} />, name: 'LinkedIn' },
     ];
