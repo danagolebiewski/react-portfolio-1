@@ -1,5 +1,5 @@
 import './about.css';
-import Resume from '../Resume';
+import Resume from '../resume/Resume';
 // import CJ from '../../assets/xx'
 
 const About = () => {
