@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
-    --color-bg: blue;
+    --color-bg: rgb(221, 155, 55);
+    --color-bg-variant: orange;
     --color-primary: black;
     --color-primary-variant: brown;
     --color-light: pink;
@@ -42,16 +43,13 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 10rem;
     height: 100vh;
 }
 
 section > h2, section > h5 {
     text-align: center;
-}
-
-section > h2 {
-    margin-bottom: 3rem;
+    font-size: 2.5rem;
 }
 
 .text-light {
@@ -70,23 +68,19 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-bg);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+    background: var(--color-primary);
 }
 
 .btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
-}
-
-.btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
 }
 
 img {

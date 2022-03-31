@@ -56,25 +56,22 @@
     cursor: default;
 }
 
-/* .about__icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-} */
-
 .aboutCard h5 {
-    font-size: 0.95rem;
+    font-size: 1.2rem;
 }
 
 .aboutCard small {
-    font-size: 0.7rem;
-    color: var(--color-light);
+    font-size: 0.95rem;
     display: grid;
 }
 
 .aboutContent p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 /* =================================================================

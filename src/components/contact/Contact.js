@@ -27,6 +27,13 @@ const Contact = () => {
             <h2>Contact</h2>
 
             <div className='container contact'>
+                
+                <form ref={ form } onSubmit={ sendEmail }>
+                    <input type="text" name='name' placeholder='Full Name' required />
+                    <input type="email" name="email" placeholder='Email' required />
+                    <textarea name='message' rows='8' placeholder='Message' required></textarea>
+                    <button type='submit' className='btn'>Send Message</button>
+                </form>
                 <div className='contactOptions'>
                     <article className='contactOption'>
                         <HomeIcon className="contactOptionIcon"/>
@@ -38,21 +45,15 @@ const Contact = () => {
                         <GitHubIcon className="contactOptionIcon"/>
                         <h4>GitHub</h4>
                         <h5>EsotericZ</h5>
-                        <a href="https://github.com/EsotericZ" target="_blank">Send</a>
+                        <a href="https://github.com/EsotericZ" target="_blank">Open</a>
                     </article>
-                    <article className='contact_option'>
+                    <article className='contactOption'>
                         <LinkedInIcon className="contactOptionIcon"/>
                         <h4>LinkedIn</h4>
                         {/* <h5>cjsand03@gmail.com</h5> */}
-                        <a href="https://github.com/EsotericZ" target="_blank">Send</a>
+                        <a href="https://github.com/EsotericZ" target="_blank">Open</a>
                     </article>
                 </div>
-                <form ref={ form } onSubmit={ sendEmail }>
-                    <input type="text" name='name' placeholder='Full Name' required />
-                    <input type="email" name="email" placeholder='Email' required />
-                    <textarea name='message' rows='8' placeholder='Message' required></textarea>
-                    <button type='submit' className='btn btn-primary'>Send Message</button>
-                </form>
             </div>
         </section>
     )

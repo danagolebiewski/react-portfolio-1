@@ -1,16 +1,18 @@
-#projects {
-    height: 100vh;
-}
-
 .project {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 30% 30%; */
     gap: 2.5rem;
+}
+
+.projectTitle {
+    display: flex;
+    justify-content: center;
 }
 
 .projectItem {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -22,18 +24,14 @@
 }
 
 .projectItemImg {
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     overflow: hidden;
-}
-
-.projectItem h3 {
-    margin: 1.2rem 0 2rem;
 }
 
 .projectItemLinks {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     justify-content: center;
 }
 

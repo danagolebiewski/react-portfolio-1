@@ -17,6 +17,10 @@ header {
     justify-content: center;
 }
 
+h1 {
+    margin: 0;
+}
+
 .cj img {
     height: 50%;
     width: auto;

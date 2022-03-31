@@ -10,42 +10,42 @@ const cjProjects = [
     {
         id: 1,
         image: prImg1,
-        titile: 'FamYOUly',
+        title: 'FamYOUly',
         github: 'https://github.com/',
         demo: 'https://github.com',
     },
     {
         id: 2,
         image: prImg2,
-        titile: 'FamYOUly',
+        title: 'FamYOUly',
         github: 'https://github.com/',
         demo: 'https://github.com',
     },
     {
         id: 3,
         image: prImg3,
-        titile: 'FamYOUly',
+        title: 'FamYOUly',
         github: 'https://github.com/',
         demo: 'https://github.com',
     },
     {
         id: 4,
         image: prImg4,
-        titile: 'FamYOUly',
+        title: 'FamYOUly',
         github: 'https://github.com/',
         demo: 'https://github.com',
     },
     {
         id: 5,
         image: prImg5,
-        titile: 'FamYOUly',
+        title: 'FamYOUly',
         github: 'https://github.com/',
         demo: 'https://github.com',
     },
     {
         id: 6,
         image: prImg6,
-        titile: 'FamYOUly',
+        title: 'FamYOUly',
         github: 'https://github.com/',
         demo: 'https://github.com',
     },
@@ -60,13 +60,15 @@ const Projects = () => {
                 { cjProjects.map(({id, image, title, github, demo}) => {
                     return (
                         <article key={ id } className='projectItem'>
-                            <h3>{ title }</h3>
+                            {/* <div  className='projectTitle'>
+                                <h3>{ title }</h3>
+                            </div> */}
                             <div className='projectItemImg'>
                                 <img src={ image } alt={ title } />
                             </div>
                             <div className='projectItemLinks'>
                                 <a href={ github } className='btn' target='_blank'>Github</a>
-                                <a href={ demo } className='btn btn-primary' target='_blank'>Live Demo</a>
+                                <a href={ demo } className='btn' target='_blank'>Live Demo</a>
                             </div>
                         </article>
                     )
