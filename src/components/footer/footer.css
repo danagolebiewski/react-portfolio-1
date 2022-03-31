@@ -10,7 +10,7 @@ footer a {
     color: var(--color-bg);
 }
 
-.footer__logo {
+.footerLogo {
     font-size: 2rem;
     font-size: 500;
     margin-bottom: 2rem;
@@ -25,14 +25,14 @@ footer a {
     margin: 0 auto 3rem;
 }
 
-.footer__socials {
+.footerSocials {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
 }
 
-.footer__socials a {
+.footerSocials a {
     background: var(--color-bg);
     color: var(--color-white);
     padding: 0.8rem;
@@ -41,13 +41,13 @@ footer a {
     border: 1px solid transparent;
 }
 
-.footer__socials a:hover {
+.footerSocials a:hover {
     background: transparent;
     color: var(--color-bg);
     border-color: var(--color-bg);
 }
 
-.footer__copyright {
+.footerCopyright {
     margin-bottom: 4rem;
     color: var(--color-bg);
 }
@@ -61,7 +61,7 @@ MEDIA QUERIES (SMALL)
         gap: 1.5rem;
     }
 
-    .footer__socials {
+    .footerSocials {
         margin-bottom: 2.6rem;
     }
 }

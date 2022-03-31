@@ -26,22 +26,22 @@ const Contact = () => {
         <section id='contact'>
             <h2>Contact</h2>
 
-            <div className='container contact__container'>
-                <div className='contact_options'>
-                    <article className='contact_option'>
-                        <HomeIcon className="contact__option-icon"/>
+            <div className='container contact'>
+                <div className='contactOptions'>
+                    <article className='contactOption'>
+                        <HomeIcon className="contactOptionIcon"/>
                         <h4>Email</h4>
                         <h5>cjsand03@gmail.com</h5>
                         <a href="mailto:cjsand03@gmail.com" target="_blank">Send</a>
                     </article>
-                    <article className='contact_option'>
-                        <GitHubIcon className="contact__option-icon"/>
+                    <article className='contactOption'>
+                        <GitHubIcon className="contactOptionIcon"/>
                         <h4>GitHub</h4>
                         <h5>EsotericZ</h5>
                         <a href="https://github.com/EsotericZ" target="_blank">Send</a>
                     </article>
                     <article className='contact_option'>
-                        <LinkedInIcon className="contact__option-icon"/>
+                        <LinkedInIcon className="contactOptionIcon"/>
                         <h4>LinkedIn</h4>
                         {/* <h5>cjsand03@gmail.com</h5> */}
                         <a href="https://github.com/EsotericZ" target="_blank">Send</a>

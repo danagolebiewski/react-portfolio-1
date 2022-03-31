@@ -6,8 +6,8 @@ const About = () => {
     return (
         <section id='about'>
             <h2>About Me</h2>
-            <div className='container about__new'>
-                <div className='container about__content'>
+            <div className='container aboutNew'>
+                <div className='container aboutContent'>
                     <p>
                     Currently working as an Engineer for a manufacturing company producing and maintainig our internal company website.
     I have been working within Python for the last 3 years and have become proficient in SQL, Flask, Pandas, git and much more.
@@ -16,8 +16,8 @@ const About = () => {
 
     I look forward to helping you build your next website!
                     </p>
-                    <div className='about__cards'>
-                        <article className='about__card'>
+                    <div className='aboutCards'>
+                        <article className='aboutCard'>
                             <h5>Languages</h5>
                             <small>JavaScript / JQuery</small>
                             <small>NodeJS</small>
@@ -26,7 +26,7 @@ const About = () => {
                             <small>Flask</small>
                             <small>Pandas</small>
                         </article>
-                        <article className='about__card'>
+                        <article className='aboutCard'>
                             <h5>Databases</h5>
                             <small>MySQL</small>
                             <small>SQLite</small>
@@ -36,13 +36,13 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='container about__pic'>
-                    <div className='about__me'>
-                        <div className='about__me-image'>
+                <div className='container aboutPic'>
+                    <div className='aboutMe'>
+                        <div className='aboutMeImg'>
                             <img src={CJ2} alt="image" />
                         </div>
                     </div>
-                    <div className='about__links'>
+                    <div className='aboutLinks'>
                         <a href='#contact' className='btn btn-primary'>Contact Me</a>
                         <Resume />
                     </div>

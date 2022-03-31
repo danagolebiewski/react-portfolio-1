@@ -7,7 +7,7 @@ import './footer.css';
 const Footer = () => {
     return (
         <footer>
-            <a href='#' className='footer__logo'>CJ</a>
+            <a href='#' className='footerLogo'>CJ</a>
 
             <ul className='permalinks'>
                 <li><a href='#'>Home</a></li>
@@ -16,13 +16,13 @@ const Footer = () => {
                 <li><a href='#Contact'>Contact</a></li>
             </ul>
 
-            <div className='footer__socials'>
+            <div className='footerSocials'>
                 <a href='https://facebook.com'><ThreePIcon /></a>
                 <a href='https://instagram.com'><GitHubIcon /></a>
                 <a href='https://twitter.com'><LinkedInIcon /></a>
             </div>
 
-            <div className='footer__copyright'>
+            <div className='footerCopyright'>
                 <small>&copy; 2022</small>
             </div>
 
