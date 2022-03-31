@@ -1,3 +1,14 @@
+.about__new {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about__pic {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 60%;
+}
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -7,32 +18,28 @@
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(
-        45deg, 
-        transparent, 
-        var(--color-primary),
-        transparent
-    );
     display: grid;
     place-items: center;
 }
 
 .about__me-image {
-    border-radius: 2rem;
+    border-radius: 5rem;
     overflow: hidden;
-    transform: rotate(10deg);
     transition: var(--transition);
-}
-
-.about__me-image:hover {
-    transform: rotate(0deg);
 }
 
 .about__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+}
+
+.about__links {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    place-items: center;
 }
 
 .about__card {
