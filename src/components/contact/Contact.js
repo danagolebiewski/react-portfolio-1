@@ -50,8 +50,7 @@ const Contact = () => {
                     <article className='contactOption'>
                         <LinkedInIcon className="contactOptionIcon"/>
                         <h4>LinkedIn</h4>
-                        {/* <h5>cjsand03@gmail.com</h5> */}
-                        <a href="https://github.com/EsotericZ" target="_blank">Open</a>
+                        <a href="https://www.linkedin.com/in/cj-sanders1986" target="_blank">Open</a>
                     </article>
                 </div>
             </div>
