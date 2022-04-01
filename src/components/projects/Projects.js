@@ -60,12 +60,11 @@ const Projects = () => {
                 { cjProjects.map(({id, image, title, github, demo}) => {
                     return (
                         <article key={ id } className='projectItem'>
-                            {/* <div  className='projectTitle'>
-                                <h3>{ title }</h3>
-                            </div> */}
+                            {/* <h3 className='test'>Test</h3> */}
                             <div className='projectItemImg'>
                                 <img src={ image } alt={ title } />
                             </div>
+                            
                             <div className='projectItemLinks'>
                                 <a href={ github } className='btn' target='_blank'>Github</a>
                                 <a href={ demo } className='btn' target='_blank'>Live Demo</a>

@@ -1,7 +1,6 @@
 .project {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: 30% 30%; */
     gap: 2.5rem;
 }
 
@@ -18,15 +17,19 @@
     transition: var(--transition);
 }
 
-.projectItem:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
-}
-
 .projectItemImg {
     border-radius: 1rem;
     overflow: hidden;
 }
+
+.test {
+    position: absolute;
+    color: black;
+}
+
+/* .projectItemImg:hover {
+    opacity: 0.1;
+} */
 
 .projectItemLinks {
     display: flex;
