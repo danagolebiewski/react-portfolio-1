@@ -1,6 +1,7 @@
 import './home.css';
 import CJ from '../../assets/cj.png';
 
+// Homepage
 const Home = () => {
     return (
         <header>

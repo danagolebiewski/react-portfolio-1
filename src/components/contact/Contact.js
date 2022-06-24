@@ -6,6 +6,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
+// Contact Info
 const Contact = () => {
     const form = useRef();
 

@@ -5,9 +5,10 @@ import HomeIcon from '@mui/icons-material/Home';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import WorkIcon from '@mui/icons-material/Work';
 import ThreePIcon from '@mui/icons-material/ThreeP';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
+// NavBar
 const Nav = () => {
     const [activeNav, setActiveNav] = useState('#');
     return (

@@ -51,6 +51,7 @@ const cjProjects = [
     },
 ]
 
+// Projects
 const Projects = () => {
     return (
         <section id='projects'>
